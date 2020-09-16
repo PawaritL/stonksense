@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  stonksense:
+    image: stonksense-image
+    environment:
+      - NEWSAPI_TOKEN=${NEWSAPI_TOKEN}
+      - QUANDL_TOKEN=${QUANDL_TOKEN}
+    build: .
+    ports:
+      - 80:80

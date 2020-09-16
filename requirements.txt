@@ -1,0 +1,4 @@
+yfinance
+lxml
+python-dotenv
+newsapi-python
